@@ -1,4 +1,4 @@
-// Author : Ýsa DUVAN
+// Author : Isa DUVAN
 
 import java.math.BigInteger;
 
