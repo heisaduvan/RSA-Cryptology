@@ -14,7 +14,7 @@ Bir açık anahtarlı şifreleme yöntemi olan RSA, 1977 yılında Ron Rives, Ad
 
 5- d gibi bir sayı hesaplanır ki bu sayı için şu denklik geçerli olmalıdır : d*e ≡ 1 mod ( n ).
 
-#ŞİFRELEME İŞLEMİ
+ŞİFRELEME İŞLEMİ
 
 Şifreleme işlemi için public şifre olan (n,e) ikilisi kullanılır.
 
@@ -22,7 +22,7 @@ c = (m^e) mod n
 
 Burada m, şifrelenecek olan açık metinin ASCII kodudur.
 
-#ŞİFRENİN AÇILMASI
+ŞİFRENİN AÇILMASI
 
 Private anahtarımız olan (n,d) ikilisi aşağıdaki şekilde kullanılarak şifreli metin çözülür.
 
