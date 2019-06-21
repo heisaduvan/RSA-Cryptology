@@ -2,7 +2,7 @@
 
 Bir açık anahtarlı şifreleme yöntemi olan RSA, 1977 yılında Ron Rives, Adi Shamir ve Leonard Aldeman tarafından bulunmuştur. Şifreleme yönteminin adı da bu üç kişinin soy isimlerinin baş harflerinden oluşur. 
 
-#Çalışması:
+ÇALIŞMASI:
 
 1- Yeterince büyük iki adet asal sayı seçilir: Bu sayılar p ve q olsunlar.
 
@@ -14,7 +14,7 @@ Bir açık anahtarlı şifreleme yöntemi olan RSA, 1977 yılında Ron Rives, Ad
 
 5- d gibi bir sayı hesaplanır ki bu sayı için şu denklik geçerli olmalıdır : d*e ≡ 1 mod ( n ).
 
-#Şifreleme İşlemi
+#ŞİFRELEME İŞLEMİ
 
 Şifreleme işlemi için public şifre olan (n,e) ikilisi kullanılır.
 
@@ -22,7 +22,7 @@ c = (m^e) mod n
 
 Burada m, şifrelenecek olan açık metinin ASCII kodudur.
 
-#Şifrenin Açılması
+#ŞİFRENİN AÇILMASI
 
 Private anahtarımız olan (n,d) ikilisi aşağıdaki şekilde kullanılarak şifreli metin çözülür.
 
@@ -36,4 +36,5 @@ README.md dosyası Şadi Evren Şeker'in 2008 yılında kendi sitesinde yayınla
 # KAYNAK
 
 1- http://bilgisayarkavramlari.sadievrenseker.com/2008/03/19/rsa/
+
 2- https://www.youtube.com/watch?v=BUZ7vwTSYVE
