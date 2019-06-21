@@ -71,16 +71,16 @@ public class rsaEncrypt {
 
 	private static BigInteger dCalculate2(BigInteger nBig, BigInteger ascii, BigInteger e) {
 
-		BigInteger asciiUstuE = BigInteger.valueOf(1);
+		BigInteger asciiExpE = BigInteger.valueOf(1);
 
 		for (int i = 1; i <= e.intValue(); i++) {
 
-			asciiUstuE = ascii.multiply(asciiUstuE);
+			asciiExpE = ascii.multiply(asciiExpE);
 		}
 
 		BigInteger c = BigInteger.valueOf(1);
 
-		c = asciiUstuE.mod(nBig);
+		c = asciiExpE.mod(nBig);
 
 		return c;
 	}
