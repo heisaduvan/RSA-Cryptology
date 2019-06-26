@@ -30,6 +30,8 @@ m = (c^d) mod n
 
 Burada açılacak olan şifrelenmiş metin c, private anahtar ise d ile gösterilmiştir. n ise taban değeri olan modulus’tur.
 
+Konuyla ilgili medium hesabımdaki yazım için : https://medium.com/@isaduvan/rsa-algoritmas%C4%B1-nedir-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-bc351e63364c
+
 README.md dosyası Şadi Evren Şeker'in 2008 yılında kendi sitesinde yayınladığı yazısından alıntılanmıştır. 
 
 
